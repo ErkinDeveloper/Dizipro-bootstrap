@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
+
+@font-face {
+   font-family: "Gilroy";
+   src: url(../font/Gilroy-ExtraBold.otf);
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Manrope', sans-serif;
+}
+
+p {
+   margin-bottom: 0
+}
+
+img {
+   vertical-align: top;
+   max-width: 100%;
+}
+
+.header__btn {
+   padding: 9px 32px;
+   border-radius: 120px;
+   -webkit-border-radius: 120px;
+   -moz-border-radius: 120px;
+   -ms-border-radius: 120px;
+   -o-border-radius: 120px;
+}
+
+.main__btn {
+   padding: 12px 48px;
+}
+
+.main__title {
+   font-family: "Gilroy";
+   font-weight: 800;
+   font-size: 60px;
+   line-height: 107%;
+   letter-spacing: -0.02em;
+   color: #000000;
+   max-width: 583px;
+
+}
+
+
+.main__text {
+   max-width: 457px;
+}
+
+.section__project {
+   background: #FCFCFC;
+   box-shadow: inset 0px 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.section__project-title {
+   font-family: 'Manrope';
+   font-weight: 800;
+   font-size: 32px;
+   line-height: 44px;
+   letter-spacing: -0.02em;
+   color: #000000;
+
+}
+
+.section__project-text {
+   max-width: 596px;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 167%;
+   color: #000000;
+}
+
+
+.section__project-imgBox {
+   min-height: 50vh;
+}
+
+
+.statistics__title {
+   font-family: 'Gilroy';
+   font-style: normal;
+   font-weight: 800;
+   font-size: 54px;
+   line-height: 111%;
+   letter-spacing: -0.02em;
+   color: #E50000;
+
+}
+
+.statistics__description {
+   font-family: 'Manrope';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 167%;
+   color: #000000;
+
+}
+
+/* .grid__container {
+   display: grid;
+   width: 100%;
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr;
+   grid-gap: 30px;
+   grid-template-areas:
+
+      "article card box"
+      "sidebar main aside"
+      ;
+}
+
+
+
+
+
+.students_one {
+   grid-area: article;
+}
+
+.students_two {
+   grid-area: card;
+}
+
+
+.students_thre {
+   grid-area: box;
+}
+
+.students_fo {
+   grid-area: sidebar;
+   padding-bottom: 100px;
+}
+
+
+ */
+
+@media (min-width: 1400px) {
+   .students_secn {
+      margin-top: -164px;
+   }
+}
+
+.m-50 {
+   width: 100%;
+}
+
+@media (min-width: 992px) {
+   .m-50 {
+      width: 50%;
+   }
+}
+
+.wrapper-courses {
+   margin-top: 100px;
+}
+
+.card p,
+.card li {
+   font-size: 16px;
+}
+
+.card h3 {
+   font-size: 14px;
+   text-transform: uppercase;
+}
+
+.card-btn {
+   vertical-align: sub;
+}
+
+.accordion {
+   max-width: 817px;
+   margin: 0 auto;
+}
+
+
+footer {
+   background: #FAFAFA;
+   min-height: 240px;
+}
+
+.overflow-x-hidden {
+   overflow-x: hidden;
+}
+
+.blog-card {
+   max-width: 257px !important;
+}
+
+@media (min-width: 576px) {
+   .blog-card {
+      max-width: 588px !important;
+   }
+}
+
+
+
+.blog-card__img {
+   min-width: 257px;
+   min-height: 100%;
+}
+
+.blog-card__content {
+   padding: 16px 16px 16px 20px;
+}
+
+.blog-card__title {
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 150%;
+   letter-spacing: -0.01em;
+}
+
+.blog-card__desc {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 164%;
+   letter-spacing: -0.01em;
+   margin-top: 8px;
+   margin-bottom: 11px;
+}
+
+.blog-card__date {
+   font-weight: 500;
+   font-size: 14px;
+   line-height: 19px;
+   letter-spacing: 0.01em;
+   opacity: 0.6;
+
+}
